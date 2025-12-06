@@ -15,5 +15,10 @@ namespace Tyuiu.EvdokimovKP.Sprint6.Task0.V7
         {
             textBoxResult_EKP.Text = Convert.ToString(ds.Calculate(x));
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
