@@ -10,13 +10,13 @@ namespace Tyuiu.EvdokimovKP.Sprint6.Task2.V4.Lib
             double[] res2 = new double[stopValue - startValue + 1];
             for (int x = startValue; x <= stopValue; x++)
             {
-                if ((2 * x - 0.5) == 0)
+                if ((Math.Sin(x) + 2) == 0)
                 {
                     res2[res] = 0;
                 }
                 else
                 {
-                    res2[res] = Math.Round((5 * x + 2.5)/ (Math.Sin(x) + 2) + 2 * x + 2, 2);
+                    res2[res] = Math.Round(((((5 * x) + 2.5)/ (Math.Sin(x) + 2))) + 2 * x + 2, 2);
                 }
                 res++;
             }
