@@ -16,7 +16,7 @@ namespace Tyuiu.EvdokimovKP.Sprint6.Task2.V4.Lib
                 }
                 else
                 {
-                    res2[res] = Math.Round((5 * x + 2.5)/ (Math.Sin(x) + 2), 2);
+                    res2[res] = Math.Round((5 * x + 2.5)/ (Math.Sin(x) + 2) + 2 * x + 2, 2);
                 }
                 res++;
             }
