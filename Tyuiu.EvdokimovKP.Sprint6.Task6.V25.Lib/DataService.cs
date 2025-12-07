@@ -23,7 +23,7 @@ namespace Tyuiu.EvdokimovKP.Sprint6.Task6.V25.Lib
 
                 }
             }
-            return res;
+            return res.Trim();
         }
     }
 }
